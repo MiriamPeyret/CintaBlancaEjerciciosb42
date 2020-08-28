@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 200em;
+    margin-top: 75px;
+}
+section{
+    border: 2px dashed #4682b4;
+     width: 500px;
+    height: 400px; 
+    margin: 10em auto;
+   padding: 20px;
+   position: relative;
+}
+div{
+    border-radius: 5px;
+    color: #444;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2.5;
+    text-align: center;
+    background: rgba(173, 216, 230, 0.7);
+    padding: 10px;
+}
+.uno{
+    /* position: relative;
+    top: 40%; */
+/* position: absolute;
+top: 50%;
+right: 0; */
+position: fixed;
+width: 100%;
+top: 0;
+}

@@ -1,0 +1,9 @@
+.slider{
+    background-image:  url(/EJEMPLOSBOOTSTRAP/bootstrap-ejercicioBlog/assets/images/bg-3.png
+    );
+/*  width: auto;
+    height: 500px;*/
+    background-size: cover;
+    height: 400px;
+    background-position: center center;
+}

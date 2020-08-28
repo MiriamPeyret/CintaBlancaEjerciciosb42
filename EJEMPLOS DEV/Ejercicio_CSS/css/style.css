@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
+.titulos{
+    width: 100%;
+    height: 200px;
+    background-color:#e9e9e9;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+margin: 0px;
+}
+h1{
+    font-size: 50px;
+    color: #444;
+    letter-spacing: 10px;
+    font-weight: 600;
+}
+h2{
+    font-size: 30px;
+    color: #444;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+h4{
+    font-size: 25px;
+}
+.consejo{
+    font-size: 23pt;
+    font-family: 'Mansalva', cursive;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+.cuerpo{
+    margin-left:20px;
+}
+.contenido{
+    float: left;
+    width: 70%;
+}
+.publicidad{
+float: right;
+width: 25%;
+}
+.publicidad h3{
+    color: #444;
+    border-bottom: solid 3px rgb(148, 68, 68);
+    font-family: 'Kollektif';
+}
+img{
+    width: 95%;
+}
+.publicidad{
+    padding-top: 60px;
+}
+.pie{
+    background-color: rgb(167, 166, 226);
+    clear: both;
+    color: #e9e9e9;
+    min-height: 80px;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 40pt;
+}
+@media(max-width: 988px){
+    .titulos{
+        height: 175px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px ;
+    }
+}
+
+@media(max-width: 895px){
+    .titulos{
+        height: 150px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
+@media(max-width: 730px){
+    .publicidad{
+       display: none;
+    }
+  .contenido{
+      width: 100%;
+  }
+}
+@media(min-width:768px) and (max-width: 1200px){
+  
+
+    }

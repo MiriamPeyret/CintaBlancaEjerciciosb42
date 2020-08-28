@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <style> h1,h2,h3,p{
+            margin: 0;
+        }
+section {
+    width: 60%;
+    background: brown;
+    float: left; /*float ubica izquierda*/
+}
+
+aside{
+    width: 30%;
+    background: cornflowerblue;
+    float: right;
+}
+footer{
+    width: 100%;
+    height: 40px;
+    background: yellow;
+    clear:  both; /*limpiar elementos flotantes*/
+}
+.contenedor{
+    /*background: grey;*/
+    width: 100%;
+    
+}
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        <section>
+            <h1>Titulo</h1>
+            <h2>descripción</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur magni numquam quod, voluptatum perspiciatis nemo iste omnis facere nostrum necessitatibus tempore aspernatur accusantium ipsa nihil quas eum et! Autem, pariatur.</p>
+        </section>
+<aside> <!--no son las mejores practicas pero con aside se puede meter el codigo de css es solo como parte del conocimiento -->
+    <h3>Sobre el autor<h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, id. Recusandae doloremque obcaecati quod cum deserunt accusantium sint necessitatibus deleniti saepe et, quos sapiente temporibus nostrum asperiores optio eum culpa!</p>
+</aside>
+<footer>
+    footer
+</footer>
+    </div>
+</body>
+</html>

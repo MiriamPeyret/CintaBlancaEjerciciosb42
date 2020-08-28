@@ -1,0 +1,21 @@
+.contenedor div{
+
+    border:1px rgb(168, 168, 168) solid;
+    padding: 10px;
+}
+.contenedor{
+    display:flex;
+   /* border-top: 1px;
+    margin: 2px;
+    padding: 10px;*/
+
+}
+.caja1{
+    order: 1;
+}
+.caja2{
+    order: 3;
+}
+.caja3{
+    order: 2;
+}

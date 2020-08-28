@@ -1,0 +1,17 @@
+body{
+    background: orange;
+}
+.jumbotron{
+    /*margin: 50px;*/
+    text-align: center;
+    box-sizing: content-box;
+    background: lightseagreen;
+    
+}
+.container-columns{
+    text-align: justify;
+    margin: 10 px;
+    padding: 70px;
+   
+}
+
